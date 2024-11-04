@@ -81,6 +81,5 @@ function lanzarConfeti() {
     }
 }
 document.getElementById("question-btn").addEventListener("click", () => {
-    document.getElementById("answer").classList.remove("hidden");
     lanzarConfeti();
 });
